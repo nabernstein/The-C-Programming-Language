@@ -1,0 +1,6 @@
+Exercise 1-11. How would you test the word count program? What kinds of
+input are most likely to uncover bugs if there are any?
+
+I would test it by typing many words of various lengths. I think inputs to find bugs includes more than one blank,
+tab, or newline (or some combination of them) between words. This program will count a word that continues on the 
+second line as a new word.
